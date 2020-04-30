@@ -3,8 +3,6 @@ import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 
-
-
 void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
       home: MyApp(),
@@ -31,7 +29,6 @@ class MyAppState extends State<MyApp> {
         ImageConfiguration(devicePixelRatio: 2.5),
         "assets/destination_map_marker.png");
   }
-
 
 
   @override
